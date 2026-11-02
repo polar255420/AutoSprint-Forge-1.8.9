@@ -1,0 +1,57 @@
+Symbol range map extraction starting
+Processing 1 files
+processing com\autosprint\AutoSprintMod.java
+@|com\autosprint\AutoSprintMod.java|8|22|com.autosprint|package|com.autosprint|(file)
+Class Start: com.autosprint.AutoSprintMod
+   @|com\autosprint\AutoSprintMod.java|684|690|String|class|java.lang.String
+   @|com\autosprint\AutoSprintMod.java|691|696|MODID|field|com.autosprint.AutoSprintMod|MODID|
+   @|com\autosprint\AutoSprintMod.java|737|743|String|class|java.lang.String
+   @|com\autosprint\AutoSprintMod.java|744|748|NAME|field|com.autosprint.AutoSprintMod|NAME|
+   @|com\autosprint\AutoSprintMod.java|789|795|String|class|java.lang.String
+   @|com\autosprint\AutoSprintMod.java|796|803|VERSION|field|com.autosprint.AutoSprintMod|VERSION|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\autosprint\AutoSprintMod.java|854|858|init|method|com.autosprint.AutoSprintMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\autosprint\AutoSprintMod.java|859|881|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\autosprint\AutoSprintMod.java|882|887|event|param|com.autosprint.AutoSprintMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\autosprint\AutoSprintMod.java|899|915|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|com\autosprint\AutoSprintMod.java|916|924|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|com\autosprint\AutoSprintMod.java|927|930|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|com\autosprint\AutoSprintMod.java|933|941|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\autosprint\AutoSprintMod.java|992|1004|onClientTick|method|com.autosprint.AutoSprintMod|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\autosprint\AutoSprintMod.java|1005|1030|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com\autosprint\AutoSprintMod.java|1031|1036|event|param|com.autosprint.AutoSprintMod|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\autosprint\AutoSprintMod.java|1052|1057|event|param|com.autosprint.AutoSprintMod|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\autosprint\AutoSprintMod.java|1058|1063|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\autosprint\AutoSprintMod.java|1067|1082|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\autosprint\AutoSprintMod.java|1083|1088|START|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|START
+      @|com\autosprint\AutoSprintMod.java|1107|1116|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\autosprint\AutoSprintMod.java|1122|1131|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\autosprint\AutoSprintMod.java|1132|1144|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\autosprint\AutoSprintMod.java|1156|1170|EntityPlayerSP|class|net.minecraft.client.entity.EntityPlayerSP
+      @|com\autosprint\AutoSprintMod.java|1183|1192|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\autosprint\AutoSprintMod.java|1267|1275|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\autosprint\AutoSprintMod.java|1290|1303|currentScreen|field|net.minecraft.client.Minecraft|currentScreen
+      @|com\autosprint\AutoSprintMod.java|1338|1351|movementInput|field|net.minecraft.client.entity.EntityPlayerSP|movementInput
+      @|com\autosprint\AutoSprintMod.java|1370|1379|getHealth|method|net.minecraft.entity.EntityLivingBase|getHealth|()F
+      @|com\autosprint\AutoSprintMod.java|1443|1456|movementInput|field|net.minecraft.client.entity.EntityPlayerSP|movementInput
+      @|com\autosprint\AutoSprintMod.java|1457|1468|moveForward|field|net.minecraft.util.MovementInput|moveForward
+      @|com\autosprint\AutoSprintMod.java|1504|1514|isSneaking|method|net.minecraft.entity.Entity|isSneaking|()Z
+      @|com\autosprint\AutoSprintMod.java|1544|1552|isRiding|method|net.minecraft.entity.Entity|isRiding|()Z
+      @|com\autosprint\AutoSprintMod.java|1582|1593|isUsingItem|method|net.minecraft.entity.player.EntityPlayer|isUsingItem|()Z
+      @|com\autosprint\AutoSprintMod.java|1623|1635|capabilities|field|net.minecraft.entity.player.EntityPlayer|capabilities
+      @|com\autosprint\AutoSprintMod.java|1636|1644|isFlying|field|net.minecraft.entity.player.PlayerCapabilities|isFlying
+      @|com\autosprint\AutoSprintMod.java|1672|1684|capabilities|field|net.minecraft.entity.player.EntityPlayer|capabilities
+      @|com\autosprint\AutoSprintMod.java|1685|1696|allowFlying|field|net.minecraft.entity.player.PlayerCapabilities|allowFlying
+      @|com\autosprint\AutoSprintMod.java|1707|1719|getFoodStats|method|net.minecraft.entity.player.EntityPlayer|getFoodStats|()Lnet/minecraft/util/FoodStats;
+      @|com\autosprint\AutoSprintMod.java|1722|1734|getFoodLevel|method|net.minecraft.util.FoodStats|getFoodLevel|()I
+      @|com\autosprint\AutoSprintMod.java|1762|1772|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+      @|com\autosprint\AutoSprintMod.java|1773|1788|setKeyBindState|method|net.minecraft.client.settings.KeyBinding|setKeyBindState|(IZ)V
+      @|com\autosprint\AutoSprintMod.java|1792|1804|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\autosprint\AutoSprintMod.java|1805|1818|keyBindSprint|field|net.minecraft.client.settings.GameSettings|keyBindSprint
+      @|com\autosprint\AutoSprintMod.java|1819|1829|getKeyCode|method|net.minecraft.client.settings.KeyBinding|getKeyCode|()I
+   Method End: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+Class End  : com.autosprint.AutoSprintMod
+endProcessing com\autosprint\AutoSprintMod.java
+

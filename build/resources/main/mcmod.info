@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "autosprint",
+    "name": "AutoSprint",
+    "description": "Activa el sprint automaticamente y estabiliza el FOV durante el sprint en Minecraft 1.8.9.",
+    "version": "1.0.1",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["AutoSprint"],
+    "credits": "Minecraft Forge",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
